@@ -1,0 +1,71 @@
+name: Homebrew Formula Tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test Formula Installation
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout tap repository
+        uses: actions/checkout@v4
+
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Cache Homebrew Bundler RubyGems
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.set-up-homebrew.outputs.gems-path }}
+          key: ${{ runner.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
+          restore-keys: ${{ runner.os }}-rubygems-
+
+      - name: Install formula
+        run: |
+          brew install --build-from-source --verbose ./Formula/claude-mpm.rb
+
+      - name: Test formula
+        run: |
+          brew test claude-mpm
+
+      - name: Test CLI commands
+        run: |
+          # Test main entry points
+          claude-mpm --version
+          mpm-doctor --help
+          mpm-init --help
+          mpm-browser-monitor --help
+          mpm-server --help
+          mpm-ui --help
+          mpm-organize --help
+          mpm-knowledge-graph --help
+
+      - name: Run audit
+        run: |
+          brew audit --strict --online ./Formula/claude-mpm.rb
+
+  lint:
+    name: Lint Formula
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout tap repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install RuboCop
+        run: gem install rubocop
+
+      - name: Lint formula with RuboCop
+        run: rubocop Formula/claude-mpm.rb
