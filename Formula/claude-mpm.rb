@@ -11,6 +11,7 @@ class ClaudeMpm < Formula
 
   # Dependencies
   depends_on "python@3.11"
+  depends_on "libyaml"
 
   # Core Python dependencies
   resource "ai-trackdown-pytools" do
@@ -164,14 +165,14 @@ class ClaudeMpm < Formula
   end
 
   test do
-    # Test that the CLI tools are installed and functional
+    # Test main CLI
     system bin/"claude-mpm", "--version"
-    system bin/"mpm-doctor", "--help"
-    system bin/"mpm-init", "--help"
-    system bin/"mpm-browser-monitor", "--help"
-    system bin/"mpm-server", "--help"
-    system bin/"mpm-ui", "--help"
-    system bin/"mpm-organize", "--help"
-    system bin/"mpm-knowledge-graph", "--help"
+
+    # Test subcommands that exist and work
+    system bin/"claude-mpm-doctor", "--help"
+    system bin/"claude-mpm-ticket", "--help"
+    system bin/"claude-mpm-monitor", "--help"
+    system bin/"claude-mpm-mcp", "--help"
+    system bin/"claude-mpm-socketio", "--help"
   end
 end

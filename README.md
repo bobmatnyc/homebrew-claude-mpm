@@ -44,50 +44,44 @@ After installation, you'll have access to all Claude MPM command-line tools:
 claude-mpm run
 
 # Check system health
-mpm-doctor
+claude-mpm-doctor
 
-# Initialize a new project
-mpm-init
+# Create and manage tickets
+claude-mpm-ticket create "Task description"
 
-# Monitor browser console
-mpm-browser-monitor start
+# Start event monitoring dashboard
+claude-mpm-monitor
 
-# Start WebSocket server
-mpm-server start
+# Start WebSocket/SocketIO server
+claude-mpm-socketio start
 
-# Launch web UI
-mpm-ui start
-
-# Organize project structure
-mpm-organize
-
-# Manage knowledge graph
-mpm-knowledge-graph index
+# Manage MCP servers
+claude-mpm-mcp list
 ```
 
 ### Quick Start
 
-1. **Initialize your project**:
+1. **Run the Project Manager**:
    ```bash
    cd your-project
-   mpm-init
+   claude-mpm run
    ```
 
-2. **Run the Project Manager**:
+2. **Check system health**:
    ```bash
-   claude-mpm run
+   claude-mpm-doctor
    ```
 
 3. **Optional: Start monitoring dashboard**:
    ```bash
    # In a separate terminal
-   mpm-server start
-   mpm-ui start
+   claude-mpm-monitor
    ```
 
-4. **Optional: Enable browser monitoring**:
+4. **Optional: Create tickets**:
    ```bash
-   mpm-browser-monitor start
+   claude-mpm-ticket create "Implement user authentication"
+   ticket list  # Using the alias
    ```
 
 ## Updating
@@ -177,12 +171,12 @@ Verify your installation:
 claude-mpm --version
 
 # Run system diagnostics
-mpm-doctor
+claude-mpm-doctor
 
 # Test all commands
-for cmd in claude-mpm mpm-doctor mpm-init mpm-browser-monitor mpm-server mpm-ui mpm-organize mpm-knowledge-graph; do
+for cmd in claude-mpm claude-mpm-doctor claude-mpm-ticket claude-mpm-monitor claude-mpm-mcp claude-mpm-socketio ticket; do
   echo "Testing $cmd..."
-  $cmd --help > /dev/null && echo "✓ $cmd works" || echo "✗ $cmd failed"
+  $cmd --help > /dev/null 2>&1 && echo "✓ $cmd works" || echo "✗ $cmd failed"
 done
 ```
 
@@ -245,7 +239,7 @@ Before submitting a PR, ensure:
 - [ ] Formula installs successfully: `brew install --build-from-source ./Formula/claude-mpm.rb`
 - [ ] All tests pass: `brew test claude-mpm`
 - [ ] Audit passes: `brew audit --strict ./Formula/claude-mpm.rb`
-- [ ] All CLI commands work: Test each `claude-mpm`, `mpm-*` command
+- [ ] All CLI commands work: Test each `claude-mpm`, `claude-mpm-*` command
 - [ ] Documentation is updated
 
 ## Support
