@@ -5,8 +5,8 @@ class ClaudeMpm < Formula
 
   desc "Multi-Agent Project Manager framework for Claude Code"
   homepage "https://github.com/bobmatnyc/claude-mpm"
-  url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-  sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+  url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+  sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   license "MIT"
 
   # Dependencies
@@ -15,148 +15,148 @@ class ClaudeMpm < Formula
 
   # Core Python dependencies
   resource "ai-trackdown-pytools" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "aiofiles" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "aiohttp-cors" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "flask" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "flask-cors" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "ijson" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "importlib-resources" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "kuzu-memory" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "mistune" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "packaging" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "pathspec" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "pexpect" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "psutil" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "pydantic-settings" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "pyee" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "python-dotenv" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "python-engineio" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "python-frontmatter" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "python-socketio" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "toml" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "tree-sitter" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "watchdog" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/c0/bc/79a2a9094f2b72470588e4f233732749cc0ca0c1d46ed8562810e34eb4ce/claude_mpm-4.25.2.tar.gz"
-    sha256 "870b48bc1d24d9b07f8ec9c976b28558b75facd61568e10f687b08769c03f07a"
+    url "https://files.pythonhosted.org/packages/67/37/c7716f7a4a56015162ec41051db5acaec39edd39b52f54982c8ec06e9fad/claude_mpm-4.25.3.tar.gz"
+    sha256 "fd1ddb27a7c06fe8858a1085cca540900479eb10ee6805780fe906dd0a711932"
   end
 
   def install
