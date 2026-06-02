@@ -5,8 +5,8 @@ class ClaudeMpm < Formula
 
   desc "Multi-Agent Project Manager framework for Claude Code"
   homepage "https://github.com/bobmatnyc/claude-mpm"
-  url "https://files.pythonhosted.org/packages/a7/e8/4d75fd067c23da35d5adb327f7c7863af9494b283baa995b6a09feb61d7e/claude_mpm-6.5.8.tar.gz"
-  sha256 "28076e3f76acc659470418906bebcf10155ca13a5d36cc0ec882d1f0c0c6db59"
+  url "https://files.pythonhosted.org/packages/c4/45/082f8ceed95ea193b8840cd2f55ddbd0cc60eabac67ff3b5987c46c63c7f/claude_mpm-6.5.9.tar.gz"
+  sha256 "78636b060a76e73f9695ec138d3b5515c140b5eccc74b15eec9f60a516f68e05"
   license "Elastic-2.0"
 
   # Dependencies
@@ -30,8 +30,8 @@ class ClaudeMpm < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/50/42/32cf8e7704ceb4481406eb87161349abb46a57fee3f008ba9cb610968646/aiohttp-3.13.3.tar.gz"
-    sha256 "a949eee43d3782f2daae4f4a2819b2cb9b0c5d3b7f7a927067cc84dafdbb9f88"
+    url "https://files.pythonhosted.org/packages/ee/ab/93ce242f899b68c51b0578c027aafa791ab3614cb9345fa5d37b5f5c8e3e/aiohttp-3.14.0.tar.gz"
+    sha256 "2882de819734c715fd1b9c11c97e09fa020d14438203d1d354d8ed1702791c9b"
   end
 
   resource "aiohttp-cors" do
@@ -90,8 +90,8 @@ class ClaudeMpm < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/9b/98/518d8e5081007684232226f475082b30087d0f585e8457db087298259f49/click-8.4.1.tar.gz"
+    sha256 "918b5633eddf6b41c32d4f454bf0de810065c74e3f7dbf8ee5452f8be88d3e96"
   end
 
   resource "cryptography" do
