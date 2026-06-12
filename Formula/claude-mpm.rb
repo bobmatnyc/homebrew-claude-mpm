@@ -5,8 +5,8 @@ class ClaudeMpm < Formula
 
   desc "Multi-Agent Project Manager framework for Claude Code"
   homepage "https://github.com/bobmatnyc/claude-mpm"
-  url "https://files.pythonhosted.org/packages/dd/6d/6d42ce1c719e98da22befb2e9d6c88b10f72924102ed9cd5e0128181dcd0/claude_mpm-6.5.36.tar.gz"
-  sha256 "1e2e6ef7197cf0733738e0c89569fcd21783bab2ce05d89d0a9cda9553c21aa9"
+  url "https://files.pythonhosted.org/packages/34/ce/01a8d69a8e7154a3dc76f8b447571a35d15337b7aee75b02f68e0eac13e4/claude_mpm-6.5.37.tar.gz"
+  sha256 "0715bcce64bc60c7451b44dab404c044f9e3293c6e82d157499d28d026458825"
   license "Elastic-2.0"
 
   # Dependencies
